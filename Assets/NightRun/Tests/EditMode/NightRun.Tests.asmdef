@@ -1,0 +1,6 @@
+{
+  "name": "NightRun.Tests",
+  "references": ["NightRun.Runtime"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

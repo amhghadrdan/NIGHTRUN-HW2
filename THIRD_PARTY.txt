@@ -1,0 +1,62 @@
+NIGHTRUN — منابع و مجوزها
+
+مدل خودرو: Car Concept
+Eric Chadwick، Darmstadt Graphics Group GmbH، 2024
+منبع: https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarConcept
+مجوز: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+مدل پایه از Unity Fan با CC0 است. مدل به OBJ تبدیل شده، ترنسفورم‌ها اعمال شده‌اند
+و عرض، رنگ بدنه و متریال‌ها تغییر کرده‌اند. چراغ‌ها، نور زیر بدنه و اگزوز هم
+اضافه شده‌اند. اطلاعات حقوقی منبع در Assets/ThirdParty/Vehicles/README.source.txt است.
+
+بافت‌ها: Poly Haven، مجوز CC0
+مجوز: https://polyhaven.com/license
+Asphalt 02 — Rob Tuytel: https://polyhaven.com/a/asphalt_02
+Brick Wall 001 — Dimitrios Savva / Rob Tuytel: https://polyhaven.com/a/brick_wall_001
+Concrete Wall 001 — Dimitrios Savva / Rico Cilliers: https://polyhaven.com/a/concrete_wall_001
+White Plaster 02 — Rob Tuytel: https://polyhaven.com/a/white_plaster_02
+Corrugated Iron — Dimitrios Savva / Jenelle van Heerden: https://polyhaven.com/a/corrugated_iron
+نسخهٔ 1K نقشه‌های رنگ و نرمال دریافت شده است. رنگ و بازتاب آسفالت در شیدر
+WetRoad تنظیم می‌شوند. هندسهٔ ساختمان‌ها در کد ساخته می‌شود و از بافت‌های
+آجر، بتن، گچ و فلز استفاده می‌کند. فایل‌های اصلی در Assets/ThirdParty/Textures هستند.
+
+فونت: Rajdhani Bold — Indian Type Foundry
+منبع: https://github.com/google/fonts/tree/main/ofl/rajdhani
+مجوز: SIL Open Font License 1.1
+اطلس SDF برای TextMeshPro ساخته شده است. فونت اصلی و OFL.txt در
+Assets/ThirdParty/Fonts قرار دارند.
+
+صدای رابط: Kenney UI Audio — Kenney Vleugels
+منبع: https://kenney.nl/assets/ui-audio
+مجوز: CC0 1.0
+فایل click1.ogg بدون تغییر استفاده شده است. مجوز در Assets/ThirdParty/Audio/License.txt است.
+
+TextMeshPro Essential Resources — Unity Technologies
+منابع از پکیج نصب‌شدهٔ com.unity.textmeshpro وارد شده‌اند و مجوز پکیج Unity را دارند.
+فونت LiberationSans و EmojiOne فایل‌های مجوز و انتساب جداگانه در Assets/TextMesh Pro دارند.
+
+هندسهٔ محیط، آسمان، جاده، خفاش‌ها، شعلهٔ اگزوز و اجزای گرافیکی رابط در
+Assets/NightRun ساخته می‌شوند. سورس ساخت موسیقی و صداهای موتور، نیترو، برخورد،
+جمع‌آوری و شمارش معکوس در Tools/prepare_assets.py است.
+
+مرجع بصری: فضای مسابقات خیابانی Need for Speed Heat و Most Wanted (2005).
+https://www.ea.com/games/need-for-speed/need-for-speed-heat
+مدل، لوگو، موسیقی یا کد این بازی‌ها در مجموعهٔ عمومی NIGHTRUN استفاده نشده است.
+
+مراجع فنی
+https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.postprocessing.html
+https://docs.unity3d.com/Packages/com.unity.inputsystem@1.14/manual/UISupport.html
+https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Pool.ObjectPool_1.html
+Pool بازی، پیاده‌سازی ثابت خود پروژه است.
+
+آزمایش محلی Asphalt Nitro
+دارایی‌های این آزمایش از نسخهٔ نصب‌شدهٔ 1.8.0a با شناسهٔ
+com.gameloft.android.ANMP.GloftAGHM گرفته شده‌اند. مجوز بازتوزیع برای آن‌ها
+ارائه نشده است. ورودی‌ها، کتابخانهٔ تبدیل‌شده و کاتالوگ محلی از گیت و آرشیو
+استاندارد سورس حذف شده‌اند.
+
+ابزارهای بررسی و تبدیل:
+REA، MIT، CLI محلی 6.7.0: https://github.com/morluto/rea
+مرجع ساختار PIG: https://github.com/RaduMC/PIG2FBX — کد آن توزیع نشده است.
+Texture2DDecoder: https://github.com/Perfare/Texture2DDecoder
+Python lz4 و NumPy و Pillow وابستگی‌های تبدیل هستند.
+مجوز این ابزارها شامل دارایی‌های بازیِ بررسی‌شده نمی‌شود.

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf0381bd1b7896ab795793ad2940a913, type: 3}
+  m_Name: NightRunAssets
+  m_EditorClassIdentifier: 
+  config: {fileID: 11400000, guid: 02081af53109f08c1bc9816e2a738ba0, type: 2}
+  car: {fileID: 919132149155446097, guid: 97e63558189d8270ebfe42457d8b05dc, type: 3}
+  font: {fileID: 11400000, guid: ecafcaec9e1b920b881f515b8dcb6998, type: 2}
+  asphalt: {fileID: 2800000, guid: ed7e6704637078efea9d461ca1b639fb, type: 3}
+  asphaltNormal: {fileID: 2800000, guid: 1232c2845a3245e88a43c196a2943fd4, type: 3}
+  brick: {fileID: 2800000, guid: 0b48cef15a6be3799a8563507fc04115, type: 3}
+  concrete: {fileID: 2800000, guid: fa0de62174eefc427ab9fe2b9e37f63c, type: 3}
+  plaster: {fileID: 2800000, guid: 1d86f50e992a78caca5d2b9fb8ab5ae7, type: 3}
+  metal: {fileID: 2800000, guid: 2c796bc2d9c01c2e0ae94163f279b1c1, type: 3}
+  controls: {fileID: -944628639613478452, guid: c8ce3744c0661ffb7aaf84b06897e445, type: 3}
+  music: {fileID: 8300000, guid: b75a60792e2e49bd1a1306ba904229d1, type: 3}
+  engine: {fileID: 8300000, guid: 0012c2299e665ba1d8a706832ee32c91, type: 3}
+  coin: {fileID: 8300000, guid: d14ed64d79f8913ada1f92ce7200acce, type: 3}
+  fuel: {fileID: 8300000, guid: bf8351aee79862b55822fa06c9532986, type: 3}
+  impact: {fileID: 8300000, guid: 59a030b22fb11044db4a5ad50c44264a, type: 3}
+  nitro: {fileID: 8300000, guid: db77d1fbe4112e3caafd7a96bbc0995e, type: 3}
+  click: {fileID: 8300000, guid: 069451de80eb7fdd985b1ef2afc62ba2, type: 3}
+  countdown: {fileID: 8300000, guid: fac5c3758e406383a98373b9368d0472, type: 3}
+  paint: {fileID: 2100000, guid: 6a86ecdeb36cc135e8ba266715a6bab7, type: 2}
+  glass: {fileID: 2100000, guid: a803577f751f82cccb8d1a41dde3520f, type: 2}
+  rubber: {fileID: 2100000, guid: 6812150e250a29457927ef3353e6c915, type: 2}
+  chrome: {fileID: 2100000, guid: 67bf87fe6e1f454fbae55c8a94342e8a, type: 2}
+  lightWhite: {fileID: 2100000, guid: f973749d3880b4592961f16b58ad9841, type: 2}
+  lightRed: {fileID: 2100000, guid: 54cb5005770be4060ab44903549865a4, type: 2}
+  postProcess: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}

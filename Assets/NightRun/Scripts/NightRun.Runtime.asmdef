@@ -1,0 +1,4 @@
+{
+  "name": "NightRun.Runtime",
+  "references": ["Unity.InputSystem", "Unity.TextMeshPro", "Unity.Postprocessing.Runtime", "UnityEngine.UI"]
+}

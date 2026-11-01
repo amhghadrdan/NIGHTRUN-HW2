@@ -1,0 +1,5 @@
+{
+  "name": "NightRun.Editor",
+  "references": ["NightRun.Runtime", "Unity.InputSystem", "Unity.TextMeshPro", "Unity.Postprocessing.Runtime", "UnityEngine.UI"],
+  "includePlatforms": ["Editor"]
+}

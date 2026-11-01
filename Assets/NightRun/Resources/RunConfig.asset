@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8245e7746c872ea00a4f208b4bb647b3, type: 3}
+  m_Name: RunConfig
+  m_EditorClassIdentifier: 
+  startSpeed: 140
+  topSpeed: 240
+  rampSeconds: 100
+  laneWidth: 3.6
+  laneChangeSeconds: 0.2
+  fuelDrain: 2
+  fuelPickup: 35
+  boostFuelMultiplier: 1.5
+  boostMultiplier: 1.25
+  nitroDrain: 25
+  nitroRecharge: 10
+  rechargeDelay: 1.5
+  invulnerabilitySeconds: 1.2
+  coinScore: 100
